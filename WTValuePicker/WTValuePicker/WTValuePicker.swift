@@ -34,6 +34,7 @@ open class WTValuePicker: UIView {
             updateBgView()
             setNeedsLayout()
             setNeedsDisplay()
+            self.tableView.reloadData()
         }
     }
 
