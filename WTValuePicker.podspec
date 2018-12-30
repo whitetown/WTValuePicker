@@ -30,6 +30,6 @@ Pod::Spec.new do |s|
   s.author       = { "WhiteTown" => "whitetownmail@gmail.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/whitetown/WTValuePicker.git", :tag => "v0.0.1" }
-  s.source_files = "WTValuePicker", "WTValuePicker/**/*.{h,m}"
+  s.source_files = "WTValuePicker", "WTValuePicker/**/*.{h,m,swift}"
 
 end
