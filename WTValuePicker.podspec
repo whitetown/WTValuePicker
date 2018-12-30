@@ -31,5 +31,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/whitetown/WTValuePicker.git", :tag => "v0.0.2" }
   s.source_files = "WTValuePicker", "WTValuePicker/**/*.{h,m,swift}"
+  s.swift_version = '4.2'
 
 end
