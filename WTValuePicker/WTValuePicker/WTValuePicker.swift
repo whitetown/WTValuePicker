@@ -194,10 +194,10 @@ extension WTValuePicker: UITableViewDelegate, UITableViewDataSource {
 extension WTValuePicker: UIScrollViewDelegate {
 
     private func setNearestRow() {
-        self.isScrolling = false
-        self.onScrolling?(self.isScrolling)
         let row: Int = Int((self.tableView.contentOffset.y + self.cellHeight/2) / self.cellHeight)
         setRow(row)
+        self.isScrolling = false
+        self.onScrolling?(self.isScrolling)
     }
 
     public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {

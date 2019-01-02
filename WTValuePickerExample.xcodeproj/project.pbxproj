@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		201D13B221D221AA00F45F0D /* WTValuePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201D13A921D2206100F45F0D /* WTValuePicker.framework */; };
 		201D13B321D221AA00F45F0D /* WTValuePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 201D13A921D2206100F45F0D /* WTValuePicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		207E2E8321DCE61400C53C99 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207E2E8221DCE61400C53C99 /* ViewController2.swift */; };
 		2091458E21CEE87D0024C44D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091458D21CEE87D0024C44D /* AppDelegate.swift */; };
 		2091459021CEE87D0024C44D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091458F21CEE87D0024C44D /* ViewController.swift */; };
 		2091459321CEE87D0024C44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2091459121CEE87D0024C44D /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		201D13A421D2205F00F45F0D /* WTValuePicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WTValuePicker.xcodeproj; path = WTValuePicker/WTValuePicker.xcodeproj; sourceTree = "<group>"; };
+		207E2E8221DCE61400C53C99 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		2091458A21CEE87D0024C44D /* WTValuePickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTValuePickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2091458D21CEE87D0024C44D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2091458F21CEE87D0024C44D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				2091458D21CEE87D0024C44D /* AppDelegate.swift */,
 				2091458F21CEE87D0024C44D /* ViewController.swift */,
+				207E2E8221DCE61400C53C99 /* ViewController2.swift */,
 				2091459121CEE87D0024C44D /* Main.storyboard */,
 				2091459421CEE8800024C44D /* Assets.xcassets */,
 				2091459621CEE8800024C44D /* LaunchScreen.storyboard */,
@@ -207,6 +210,7 @@
 			files = (
 				2091459021CEE87D0024C44D /* ViewController.swift in Sources */,
 				2091458E21CEE87D0024C44D /* AppDelegate.swift in Sources */,
+				207E2E8321DCE61400C53C99 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,10 +20,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let btn = UIBarButtonItem.init(barButtonSystemItem: .play, target: self, action: #selector(playTap))
+        self.navigationItem.rightBarButtonItem = btn
+
         weak var welf = self
 
         self.picker1.fillColor = .yellow
         self.picker2.fillColor = .yellow
+
+        self.picker1.cellHeight = 60
+        self.picker2.cellHeight = 60
 
         self.picker1.attributes = [
              NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 32)
@@ -71,6 +77,7 @@ class ViewController: UIViewController {
 
     func handleOnScroll() {
         self.button.isEnabled = !self.picker1.isScrolling && !self.picker2.isScrolling
+        self.navigationItem.rightBarButtonItem?.isEnabled = self.button.isEnabled
     }
 
     @objc func btnTap() {
@@ -78,6 +85,9 @@ class ViewController: UIViewController {
         self.picker2.setValue(20)
     }
 
+    @objc func playTap() {
+        self.navigationController?.pushViewController(ViewController2(), animated: true)
+    }
 
 }
 
