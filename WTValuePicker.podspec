@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WTValuePicker"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Large Value Picker based on UITableView"
   s.description  = <<-DESC
   Large Value Picker based on UITableView
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT" }
   s.author       = { "WhiteTown" => "whitetownmail@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/whitetown/WTValuePicker.git", :tag => "v0.0.5" }
+  s.source       = { :git => "https://github.com/whitetown/WTValuePicker.git", :tag => "v0.0.6" }
   s.source_files = "WTValuePicker", "WTValuePicker/**/*.{h,m,swift}"
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
 end

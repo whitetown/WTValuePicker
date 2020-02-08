@@ -104,6 +104,7 @@
 				TargetAttributes = {
 					201D139821D2205F00F45F0D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -113,6 +114,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 201D138F21D2205F00F45F0D;
 			productRefGroup = 201D139A21D2205F00F45F0D /* Products */;
@@ -290,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.allwhitetown.WTValuePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -315,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.allwhitetown.WTValuePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
